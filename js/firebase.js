@@ -1,18 +1,15 @@
-// Masukkan config Firebase kamu
-const firebaseConfig = {
-  apiKey: "AIzaSyDiaWaVLr88PapSzS2-yDQOsD1PKD1510s",
-  authDomain: "daget-8aa90.firebaseapp.com",
-  projectId: "daget-8aa90",
-  storageBucket: "daget-8aa90.firebasestorage.app",
-  messagingSenderId: "1090537025712",
-  appId: "1:1090537025712:web:723438e53f4370f2580b75",
-  measurementId: "G-9P4SF5G2T7"
+// firebase.js
+var firebaseConfig = {
+  apiKey: "AIzaSyDoT-g3KdzO6OJfyk7pZbPFFfZYXIxvAD4",
+  authDomain: "taskshare-d418c.firebaseapp.com",
+  projectId: "taskshare-d418c",
+  storageBucket: "taskshare-d418c.appspot.com",
+  messagingSenderId: "852406544322",
+  appId: "1:852406544322:web:20b449f34d399f614d985b",
+  measurementId: "G-S1PL24E751"
 };
 
-// Inisialisasi Firebase
+// Initialize Firebase
 firebase.initializeApp(firebaseConfig);
-
-// Service
 const auth = firebase.auth();
 const db = firebase.firestore();
-const storage = firebase.storage();
